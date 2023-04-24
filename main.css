@@ -1,0 +1,18 @@
+#root {
+    font-family: Verdana, sans-serif !important;
+}
+
+body {
+    font-family: Verdana, sans-serif !important;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    width: 100%;
+    background-color: #b042ff;
+    padding: 20px;
+    color: #f0ceff;
+}
