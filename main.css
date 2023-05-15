@@ -63,8 +63,8 @@ header h3 {
 
 .imagecontainer1 {
     background-color: #b042ff;
-    width: 950px;
-    height: 950px;
+    width: 720px;
+    height: 720px;
     padding: 10px;
     margin-right: 0px;
     margin-left: auto;
@@ -72,12 +72,11 @@ header h3 {
 
 .imagecontainer1 img {
     display: block;
-    width: 930px;
-    height: 930px;
+    width: 700px;
+    height: 700px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    border-radius: 10%;
 }
 
 .sector2 {
@@ -90,16 +89,16 @@ header h3 {
 
 .imagecontainer2 {
     background-color: #b042ff;
-    width: 950px;
-    height: 950px;
+    width: 720px;
+    height: 720px;
     padding: 10px;
-    margin-right: 40%;
+    margin-right: 55%;
 }
 
 .imagecontainer2 img {
     display: block;
-    width: 930px;
-    height: 930px;
+    width: 700px;
+    height: 700px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
@@ -115,8 +114,8 @@ header h3 {
 
 .imagecontainer3 {
     background-color: #b042ff;
-    width: 950px;
-    height: 950px;
+    width: 720px;
+    height: 720px;
     padding: 10px;
     margin-right: 0px;
     margin-left: auto;
@@ -124,8 +123,8 @@ header h3 {
 
 .imagecontainer3 img {
     display: block;
-    width: 930px;
-    height: 930px;
+    width: 700px;
+    height: 700px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
@@ -138,4 +137,8 @@ footer {
     width: 100%;
     position: absolute;
     margin-bottom: 0px;
+}
+
+.paragraph1 {
+    padding: 20px;
 }
