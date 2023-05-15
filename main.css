@@ -1,0 +1,85 @@
+#root {
+    font-family: Verdana, sans-serif !important;
+}
+
+body {
+    font-family: Verdana, sans-serif !important;
+    background-color: #f0ceff;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+    width: auto;
+    height: 500px;
+
+    background-color: #b042ff;
+    padding: 20px;
+    color: #f0ceff;
+    text-align: center;
+}
+
+header h1 {
+    margin: 10px;
+    font-size: 220px;
+}
+
+header h3 {
+    margin: 0px;
+    font-size: 40px;
+}
+
+.sector1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+.imagecontainer1 {
+    background-color: #b042ff;
+    width: 950px;
+    height: 950px;
+    padding: 10px;
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+.imagecontainer1 img {
+    display: block;
+    width: 930px;
+    height: 930px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 10%;
+}
+
+.sector2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+.imagecontainer2 {
+    background-color: #b042ff;
+    width: 950px;
+    height: 950px;
+    padding: 10px;
+    margin-left: 0px;
+    margin-left: auto;
+}
+
+.imagecontainer2 img {
+    display: block;
+    width: 930px;
+    height: 930px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 10%;
+}
