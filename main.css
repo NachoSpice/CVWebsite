@@ -14,12 +14,34 @@ header {
 
 
     width: auto;
-    height: 500px;
+    height: 850px;
 
     background-color: #b042ff;
     padding: 20px;
     color: #f0ceff;
     text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    background-color: #b042ff;
+    justify-content: center;
+}
+
+nav button {
+    flex-grow: 1;
+    color: #f0ceff;
+    background-color: #b042ff;
+    padding: 10px;
+    height: 60px;
+    border: 3px solid #f0ceff;
+    transition-duration: 0.5s;
+}
+
+nav button:hover {
+    flex-grow: 2;
 }
 
 header h1 {
