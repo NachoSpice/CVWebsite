@@ -63,6 +63,7 @@ header h3 {
     flex-direction: row;
     justify-content: center;
     margin: 10px;
+    margin-left: 0px;
 }
 
 .imagecontainer2 {
@@ -70,8 +71,7 @@ header h3 {
     width: 950px;
     height: 950px;
     padding: 10px;
-    margin-left: 0px;
-    margin-left: auto;
+    margin-right: 40%;
 }
 
 .imagecontainer2 img {
@@ -82,4 +82,38 @@ header h3 {
     margin-right: auto;
     margin-top: 10px;
     border-radius: 10%;
+}
+
+.sector3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+.imagecontainer3 {
+    background-color: #b042ff;
+    width: 950px;
+    height: 950px;
+    padding: 10px;
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+.imagecontainer3 img {
+    display: block;
+    width: 930px;
+    height: 930px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 10%;
+}
+
+footer {
+    background-color: #b042ff;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    margin-bottom: 0px;
 }
