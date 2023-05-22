@@ -5,6 +5,7 @@
 body {
     font-family: Verdana, sans-serif !important;
     background-color: #f0ceff;
+    margin: 0px;
 }
 
 header {
@@ -77,12 +78,14 @@ header h3 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
+    border-radius: 10%;
 }
 
 .sector2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     margin: 10px;
     margin-left: 0px;
 }
@@ -92,7 +95,7 @@ header h3 {
     width: 720px;
     height: 720px;
     padding: 10px;
-    margin-right: 55%;
+    margin-right: 0px;
 }
 
 .imagecontainer2 img {
@@ -103,6 +106,10 @@ header h3 {
     margin-right: auto;
     margin-top: 10px;
     border-radius: 10%;
+}
+
+.paragraph2 {
+    margin: 30px;
 }
 
 .sector3 {
