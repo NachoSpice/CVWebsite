@@ -4,7 +4,7 @@
 
 body {
     font-family: Verdana, sans-serif !important;
-    background-color: #f0ceff;
+    background-color: #cce7c9;
     margin: 0px;
 }
 
@@ -17,9 +17,9 @@ header {
     width: auto;
     height: 850px;
 
-    background-color: #b042ff;
+    background-color: #72bf62;
     padding: 20px;
-    color: #f0ceff;
+    color: #cce7c9;
     text-align: center;
 }
 
@@ -27,17 +27,17 @@ nav {
     display: flex;
     flex-direction: row;
     width: auto;
-    background-color: #b042ff;
+    background-color: #72bf62;
     justify-content: center;
 }
 
 nav button {
     flex-grow: 1;
-    color: #f0ceff;
-    background-color: #b042ff;
+    color: #cce7c9;
+    background-color: #72bf62;
     padding: 10px;
     height: 60px;
-    border: 3px solid #f0ceff;
+    border: 3px solid #cce7c9;
     transition-duration: 0.5s;
 }
 
@@ -60,10 +60,11 @@ header h3 {
     flex-direction: row;
     justify-content: center;
     margin: 10px;
+    color: #173518;
 }
 
 .imagecontainer1 {
-    background-color: #b042ff;
+    background-color: #cce7c9;
     width: 720px;
     height: 720px;
     padding: 10px;
@@ -88,10 +89,11 @@ header h3 {
     align-items: center;
     margin: 10px;
     margin-left: 0px;
+    color: #173518;
 }
 
 .imagecontainer2 {
-    background-color: #b042ff;
+    background-color: #cce7c9;
     width: 720px;
     height: 720px;
     padding: 10px;
@@ -112,15 +114,20 @@ header h3 {
     margin: 30px;
 }
 
+.paragraph2 p {
+    font-size: 24px;
+}
+
 .sector3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 10px;
+    color: #173518;
 }
 
 .imagecontainer3 {
-    background-color: #b042ff;
+    background-color: #cce7c9;
     width: 720px;
     height: 720px;
     padding: 10px;
@@ -139,13 +146,41 @@ header h3 {
 }
 
 footer {
-    background-color: #b042ff;
-    height: 50px;
+    background-color: #72bf62;
+    height: 80px;
     width: 100%;
     position: absolute;
     margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    margin-top: 10px;
 }
 
 .paragraph1 {
     padding: 20px;
+}
+
+.paragraph3 {
+    margin: 30px;
+}
+
+.paragraph3 p {
+    font-size: 24px;
+}
+
+.contactmain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: #173518;
 }
